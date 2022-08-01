@@ -1,0 +1,85 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Press+Start+2P&family=Roboto:wght@100&display=swap');
+*/
+body{
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+
+    background-color: mediumpurple;
+    color: white;
+
+    /* font-family: 'Amatic SC', cursive; */
+    font-size: 20px;
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    
+    background-color: rgb(116, 75, 155);
+    
+    border: 1px solid white;
+    border-radius: 10px;
+    /* box-shadow: 0 0 1rem 0; */
+}
+
+
+input:focus{
+    outline: 0;
+    
+}
+
+
+
+.btn-create{
+
+    
+    font-size: 15px;
+    
+    background-color: #6439bd;
+    color: white;
+    border: 3px solid #6439bd;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-create:hover{
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+    border: 3px solid blueviolet;
+    
+}
+
+input{
+    height: 20px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+    width: 200px;
+    
+}
+
+.btn-erase{
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 3px solid mediumpurple;
+    border-radius: 10px;
+    color: white;
+    background-color: mediumpurple;
+    height: 25px;
+}
+
+
+
+
+
+
